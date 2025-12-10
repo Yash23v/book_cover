@@ -144,6 +144,7 @@ cover.html
 </html>
 ```
 # OUTPUT:
-![alt text](CoverPageOp.png)
+<img width="1919" height="1017" alt="CoverPageOp" src="https://github.com/user-attachments/assets/7e298883-f897-4bae-ae9d-dcb124b72129" />
+
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
