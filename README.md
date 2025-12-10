@@ -1,4 +1,4 @@
-# Ex.06 Book Front Cover Page Design
+# Ex.05 Book Front Cover Page Design
 # Date: 05.12.2025
 # AIM:
 To design a book front cover page using HTML and CSS.
@@ -62,7 +62,6 @@ cover.html
                 width:33%;
                 margin-left: auto;
                 margin-right: auto;
-                border: 5px solid black;
             }
             .page img{
                 position:absolute;
@@ -91,7 +90,7 @@ cover.html
             }
             .page h2{
                 position: absolute;
-                bottom: 2%;
+                bottom: 1%;
                 left:30%;
                 font-weight: lighter;
                 font-size: 20px;
@@ -101,11 +100,27 @@ cover.html
             .page span{
                 position: absolute;
             }
+            hr{
+                position: absolute;
+                bottom:8%;
+                left:26%;
+                width:50%;
+                border: 0.5px solid black;
+            }
+            .bord{
+                position:absolute;
+                height:95%;
+                width:94.5%;
+                border: 3px solid ghostwhite;
+                top:2%;
+                left:2%;
+            }
         </style>
     </head>
     <body>
         <div class="page">
-            <h1 style="padding-top: 27px;">THE</h1>
+            <div class="bord"></div>
+            <h1 style="padding-top: 46px;">THE</h1>
             <h1 style="padding-top: 10px;">LONGEST</h1>
             <h1 style="padding-top: 10px;">TALK</h1>
             <img src="{% static 'audible.png' %}">
@@ -122,6 +137,7 @@ cover.html
             <span style="transform: rotate(56deg);bottom: 83px;left:84.5px;">n</span>
             <pre>How Silence, Space Simple Presence
                 Sustain a Life Together.         </pre>
+            <hr>
             <h2>-JENNY HANN-</h2>
         </div>
     </body>
